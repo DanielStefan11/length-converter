@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css//main.css">
+    <title>Length Converter</title>
+  </head>
+  <body>
+    <h1>Length Converter</h1>
+    <div id="inputs-container">
+      <div id="inputs">
+        <label for="value">Value:</label>
+        <input
+          type="number"
+          id="input-value"
+          placeholder="Insert length value (only numbers)"
+        />
+        <p>Result: <span id="result-value"></span></p>
+        <div id="refresh-btn-container">
+          <button id="refresh-values">Refresh</button>
+        </div>
+      </div>
+    </div>
+    <h2>Convert</h2>
+    <div class="measurement-container">
+      <div id="feet" class="buttons-container">
+        <h3>From <span class="measurement">Feet</span> to:</h3>
+        <button id="feet-to-miles">Miles</button>
+        <button id="feet-to-kilometers">Kilometers</button>
+        <button id="feet-to-yards">Yards</button>
+        <button id="feet-to-meters">Meters</button>
+        <button id="feet-to-inches">Inches</button>
+        <button id="feet-to-centimeters">Centimeters</button>
+      </div>
+      <div id="meters" class="buttons-container">
+        <h3>From <span class="measurement">Meters</span> to:</h3>
+        <button id="meters-to-miles">Miles</button>
+        <button id="meters-to-kilometers">Kilometers</button>
+        <button id="meters-to-yards">Yards</button>
+        <button id="meters-to-feet">Feet</button>
+        <button id="meters-to-inches">Inches</button>
+        <button id="meters-to-centimeters">Centimeters</button>
+      </div>
+      <div id="yards" class="buttons-container">
+        <h3>From <span class="measurement">Yards</span> to:</h3>
+        <button id="yards-to-miles">Miles</button>
+        <button id="yards-to-kilometers">Kilometers</button>
+        <button id="yards-to-meters">Meters</button>
+        <button id="yards-to-feet">Feet</button>
+        <button id="yards-to-inches">Inches</button>
+        <button id="yards-to-centimeters">Centimeters</button>
+      </div>
+      <div id="inches" class="buttons-container">
+        <h3>From <span class="measurement">Inches</span> to:</h3>
+        <button id="inches-to-miles">Miles</button>
+        <button id="inches-to-kilometers">Kilometers</button>
+        <button id="inches-to-meters">Meters</button>
+        <button id="inches-to-yards">Yards</button>
+        <button id="inches-to-feet">Feet</button>
+        <button id="inches-to-centimeters">Centimeters</button>
+      </div>
+      <div id="centimeters" class="buttons-container">
+        <h3>From <span class="measurement">Centimeters</span> to:</h3>
+        <button id="centimeters-to-miles">Miles</button>
+        <button id="centimeters-to-kilometers">Kilometers</button>
+        <button id="centimeters-to-meters">Meters</button>
+        <button id="centimeters-to-yards">Yards</button>
+        <button id="centimeters-to-feet">Feet</button>
+        <button id="centimeters-to-inches">Inches</button>
+      </div>
+      <div id="kilometers" class="buttons-container">
+        <h3>From <span class="measurement">Kilometers</span> to:</h3>
+        <button id="kilometers-to-miles">Miles</button>
+        <button id="kilometers-to-meters">Meters</button>
+        <button id="kilometers-to-yards">Yards</button>
+        <button id="kilometers-to-feet">Feet</button>
+        <button id="kilometers-to-inches">Inches</button>
+        <button id="kilometers-to-centimeters">Centimeters</button>
+      </div>
+      <div id="miles" class="buttons-container">
+        <h3>From <span class="measurement">Miles</span> to:</h3>
+        <button id="miles-to-kilometers">kilometers</button>
+        <button id="miles-to-meters">Meters</button>
+        <button id="miles-to-yards">Yards</button>
+        <button id="miles-to-feet">Feet</button>
+        <button id="miles-to-inches">Inches</button>
+        <button id="miles-to-centimeters">Centimeters</button>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
