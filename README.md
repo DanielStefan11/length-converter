@@ -4,7 +4,7 @@ Simple length converter (desktop design only)
 
 **Deployed at:** https://danielstefan11.github.io/length-converter/
 
-## Measurements availabled
+## Measurement units available
 
 - miles
 - kilometers
